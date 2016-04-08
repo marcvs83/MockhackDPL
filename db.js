@@ -6,5 +6,5 @@ var Board = new Schema({
   text: {type: String}
 });
 
-mongoose.model( 'Entry', Entry );
+mongoose.model( 'Board', Board );
 mongoose.connect( 'mongodb://localhost/mockhack' );
