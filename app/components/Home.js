@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
+import Boards from './boards/Boards';
 
 class Home extends Component {
  render() {
-   return (<div>
-             <h1>React Starter App</h1>
-           </div>);
+   return(
+     <div>
+       <Boards />
+     </div>
+   );
  }
 }
 
-export default Home
+export default Home;
