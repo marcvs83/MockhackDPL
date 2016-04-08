@@ -1,8 +1,10 @@
 var mongoose = require( 'mongoose' );
 var Schema   = mongoose.Schema;
 
-//var Model = new Schema({
-//});
+var Board = new Schema({
+  date: {type: Number, required: true},
+  text: {type: String}
+});
 
-//mongoose.model( 'Model', Model );
-mongoose.connect( 'mongodb://localhost/react-starter' );
+mongoose.model( 'Entry', Entry );
+mongoose.connect( 'mongodb://localhost/mockhack' );
