@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+     import React, {Component} from 'react';
 import Boards from './boards/Boards';
 
 class Home extends Component {
